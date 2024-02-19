@@ -1,0 +1,23 @@
+/*navbar general*/
+nav{  
+    padding: 10px ;
+    background-color: #5C027C;
+    display: flex;
+} 
+/*  */
+.div-nav-img{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around; /* Puedes cambiar a 'space-between' si prefieres que las imágenes estén en los extremos */
+    align-items: center;
+    text-align: center;
+}
+.a-img{
+    width: 70px;
+    height: 70px;
+}
+.texto-nav{
+    color: white;
+    text-decoration: none;
+}
+
