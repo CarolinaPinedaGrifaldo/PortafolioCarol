@@ -51,6 +51,7 @@ nav{
     height: auto;
     display: block;
 }
+/* Div container del cuadro con texto */
 .container div{
     margin-top: 70px; /* Ajusta según sea necesario para evitar superposiciones con el navbar */
     margin-left: 600px;
@@ -58,9 +59,10 @@ nav{
     border-radius: 30px;
     border: 6px solid #000;
     margin-right: 80px;
-    background: linear-gradient(90deg, #fbcaf4, #E2A5DF);
+    background-color: #fbcaf4 ;
     padding: 30px;
 }
+/* Texto dentro del div container */
 .cuadro-texto {
     position: absolute;
     bottom: 0;
@@ -72,5 +74,28 @@ nav{
     text-align: center;
     font-family: "Kode Mono", monospace;
 }
+
+/* Estilos específicos para Laptop L (máximo ancho de 1224px) */
+@media(max-width: 1224px){
+    .semicirculo {
+        width: 450px; /* Ajusta el tamaño del semicírculo*/
+        height: 450px; /* Ajusta el tamaño del semicírculo*/
+        border-radius: 50% 5000% 0 0; /* Dar forma de semicírculo al contenedor */
+    }
+    /* Foto dentro del semicirculo */
+    .img-caro {
+        width: 117%; /* Ajusta el tamaño de la imagen para llenar el semicírculo */
+        height: auto;
+        display: block;
+    }
+    /* Div container del cuadro con texto */
+    .container div{
+        margin-top: 70px; /* Ajusta según sea necesario para evitar superposiciones con el navbar */
+        margin-left: 470px;
+        margin-bottom: 50px;
+        border-radius: 30px;
+    }
+}
+
 
 
