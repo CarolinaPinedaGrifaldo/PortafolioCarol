@@ -1,10 +1,15 @@
+/* body general */
+.body{
+    background-color: #5C027C;
+    
+}
 /*navbar general*/
 nav{  
     padding: 10px ;
     background-color: #5C027C;
     display: flex;
 } 
-/*  */
+/* nabvar en genral para las imagenes */
 .div-nav-img{
     padding: 10px;
     display: flex;
@@ -12,12 +17,60 @@ nav{
     align-items: center;
     text-align: center;
 }
+/* Imagenes del navbar */
 .a-img{
     width: 70px;
     height: 70px;
 }
+.a-img:hover{
+    transform: scale(1.1);
+}
+/* texto de los h5 del navbar */
 .texto-nav{
     color: white;
     text-decoration: none;
+    font-family: "Kode Mono", monospace;
 }
+/* Semicirculo de mi body */
+.semicirculo {
+    width: 600px; /* Ajusta el tamaño del semicírculo*/
+    height: 480px; /* Ajusta el tamaño del semicírculo*/
+    background-color: white; /* Color de fondo del semicírculo */
+    border-radius: 50% 5000% 0 0; /* Dar forma de semicírculo al contenedor */
+    position: fixed; /* Fijar la posición del contenedor en la ventana del navegador */
+    bottom: 0; /* Alinear el circulo con el borde inferior de la ventana */
+    left: 0; /* Alinear la parte izquierda del circulo con el borde izquierdo de la ventana */
+    overflow: hidden; /* Oculta la parte del círculo que se extiende más allá del borde */
+    display: flex; /*Para alinear el contenido del circulo*/
+    justify-content: flex-end; /* Alinear el contenido hacia la parte derecha del contenedor */
+    align-items: flex-end; /* Alinear el contenido hacia la parte inferior del contenedor */
+}
+/* Foto dentro del semicirculo */
+.img-caro {
+    width: 700%; /* Ajusta el tamaño de la imagen para llenar el semicírculo */
+    height: auto;
+    display: block;
+}
+.container div{
+    margin-top: 70px; /* Ajusta según sea necesario para evitar superposiciones con el navbar */
+    margin-left: 600px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    border: 6px solid #000;
+    margin-right: 80px;
+    background: linear-gradient(90deg, #fbcaf4, #E2A5DF);
+    padding: 30px;
+}
+.cuadro-texto {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Kode Mono", monospace;
+}
+
 
